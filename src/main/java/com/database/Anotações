@@ -1,0 +1,10 @@
+
+public List<Escola> findByPresencaFalse() {
+
+    Escola escola = new Escola();
+
+    if (escola.getPresenca() == false) {
+
+        return escola
+    }
+}
